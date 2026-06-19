@@ -1,0 +1,103 @@
+{
+  "aa": ["Aashiqui 2 Title Track", "Aaj Phir", "Aaj Jaane Ki Zid Na Karo", "Aaj Kal Tere Mere Pyaar Ke Charche", "Aa Chal Ke Tujhe", "Aadha Ishq", "Aasman Se Aage", "Aaj Ki Raat"],
+  "ab": ["Abhi Mujh Mein Kahin", "Ab Tere Dil Mein Hum Aa Gaye", "Ab Ke Baras"],
+  "aj": ["Ajeeb Dastaan Hai Yeh", "Aaj Mausam Bada Beimaan Hai", "Aaj Phir Jeene Ki Tamanna Hai"],
+  "ak": ["Akhiyan Milaoon Kabhi", "Akele Hain Toh Kya Gham Hai"],
+  "al": ["Allah Ke Bande", "Allah Maaf Kare", "Allah Wariyan", "Allah Hoo"],
+  "an": ["Ankhon Mein Teri", "Anjaana Anjaani Title", "Ankh Hai Bhari Bhari", "Angreji Beat"],
+  "ap": ["Apna Time Aayega", "Apni Toh Jaise Taise"],
+  "ar": ["Arziyan"],
+  "ay": ["Aye Mere Watan Ke Logo", "Aye Dil Hai Mushkil Title", "Aye Mere Humsafar"],
+
+  "ba": ["Badtameez Dil", "Bahara", "Balam Pichkari", "Banno", "Baaton Ko Teri", "Bajre Da Sitta", "Baazigar O Baazigar", "Bade Achhe Lagte Hain", "Barso Re", "Bahut Pyaar Karte Hain", "Baaki Sab First Class Hai"],
+  "bh": ["Bhage Re Mann", "Bhar Do Jholi Meri", "Bhoole Bisre Geet", "Bhumro Bhumro", "Bhool Bhulaiyaa Title"],
+  "bi": ["Bijli Bijli", "Bichhde Sabhi Baari Baari"],
+  "bo": ["Bol Na Halke Halke", "Bolna", "Bole Chudiyan"],
+
+  "ch": ["Channa Mereya", "Chaiyya Chaiyya", "Chaar Kadam", "Chalte Chalte", "Chan Kitthan", "Chanda Re Chanda Re", "Chhed Diya Dil Mera", "Chittiyaan Kalaiyan", "Choli Ke Peeche", "Chura Liya Hai Tumne", "Chunar"],
+
+  "da": ["Dard-e-Disco", "Dafli Wale Dafli Baja", "Dard Karaara", "Daaru Desi", "Danka Bajne De"],
+  "de": ["Deewani Mastani", "Dekha Na Tha", "Desi Girl", "Dekha Ek Khwaab", "Dekhte Dekhte", "Desh Rangila"],
+  "dh": ["Dhadak", "Dheere Dheere", "Dhak Dhak Karne Laga", "Dhol Baaje", "Dhan Te Nan"],
+  "di": ["Dil Dhadakne Do", "Dil Se Re", "Dil Chahta Hai Title", "Dil Diyan Gallan", "Dil Ko Karaar Aaya", "Dil Hai Chota Sa", "Dil Na Jaane Kyun", "Dilbar Dilbar", "Dil Ka Kya Kasoor", "Dildaara"],
+  "do": ["Door Se Paas Aaye", "Dooba Dooba Rehta Hoon", "Do Pal", "Dola Re Dola"],
+  "du": ["Duma Dum Mast Kalandar", "Duniya"],
+
+  "ga": ["Galliyan", "Gal Ban Gayi", "Gar Main Kahoon", "Gajanana", "Gazab Ka Hai Din", "Gallan Goodiyaan"],
+  "gh": ["Ghungroo", "Ghagra", "Ghar Aaja Pardesi"],
+  "go": ["Gore Gore O Banke Chhore", "Gori Tere Pyaar Mein", "Govinda Ala Re"],
+  "gu": ["Gulabi Aankhen", "Gun Gun Guna Re"],
+
+  "ha": ["Hawa Hawa", "Hasi Ban Gaye", "Hawayein", "Hai Apna Dil Toh Awara", "Haule Haule", "Haan Main Galat", "Hamari Adhuri Kahani Title", "Har Kisi Ko", "Hawa Hawa E Hawa"],
+  "hi": ["Hichki Title Track"],
+  "ho": ["Ho Ja Awara", "Hoke Tha Alvida", "Ho Mann Jahaan"],
+  "hu": ["Humko Humise Chura Lo", "Hua Hain Aaj Pehli Baar", "Humma Humma", "Humne Tumse Pyar Kiya"],
+
+  "ja": ["Jaane Kyun", "Jaadu Hai Nasha Hai", "Jab Koi Baat Bigad Jaye", "Jab Se Tere Naina", "Jadoo Ki Jhappi", "Janam Janam", "Jai Ho", "Jaane Tu Ya Jaane Na Title", "Jawaan Title Track"],
+  "jh": ["Jhoom Barabar Jhoom", "Jhoola Jhule La", "Jhak Maar Ke", "Jhumka Gira Re"],
+  "ji": ["Jiya Re", "Jiya Jale"],
+  "jo": ["Jo Bhi Main", "Jo Bheji Thi Dua", "Jogi Mahi"],
+  "ju": ["Judaai", "Jugni Ji"],
+
+  "ka": ["Kabhi Kabhi Aditi", "Kar Har Maidaan Fateh", "Kanha", "Kaun Tujhe", "Kal Ho Na Ho Title", "Kaala Doriya", "Kaho Na Pyaar Hai Title", "Kabhi Khushi Kabhie Gham Title", "Kajra Re", "Kala Sha Kala"],
+  "kh": ["Khuda Jaane", "Kho Gaye Hum Kahan", "Khwabon Ke Parinday", "Khullam Khulla", "Khwaja Mere Khwaja", "Khaike Paan Banaras Wala"],
+  "ki": ["Kinna Sona", "Kisi Ki Muskurahaton Pe", "Kismat Konnection Title"],
+  "ko": ["Koi Kahe Kehta Rahe", "Koi Mil Gaya Title", "Kolaveri Di"],
+  "ku": ["Kuch Kuch Hota Hai Title", "Kuch Toh Hua Hai"],
+
+  "la": ["Lag Ja Gale", "Lahra Do", "Lambi Judaai", "Laal Ishq", "Laapata", "Lagan Lagi", "Laila Main Laila", "Lakk 28 Kuri Da"],
+  "le": ["Lete Hain Aaj"],
+  "lo": ["Log Kehte Hain Main Sharabi"],
+
+  "ma": ["Mann", "Maahi Ve", "Maa", "Maana Dil", "Main Rang Sharbaton Ka", "Manma Emotion Jaage Re", "Main Agar Kahoon", "Mast Magan", "Maar Dala", "Maaye Ni Maaye", "Mann Mera", "Masakkali", "Maine Tujhse Pyar Kiya"],
+  "me": ["Mere Naam Tu", "Mere Rashke Qamar", "Mera Joota Hai Japani", "Mere Dil Ne", "Meri Zindagi Hai Tu", "Meri Pyaari Bindu Title"],
+  "mi": ["Mile Ho Tum Humko"],
+  "mo": ["Morni Banke", "Mohabbat Barsa Dena"],
+  "mu": ["Mujhse Dosti Karoge Title", "Mujhe Neend Na Aaye", "Musafir Hoon Yaaron"],
+
+  "na": ["Naina", "Naino Mein Sapna", "Nazm Nazm", "Nagada Sang Dhol", "Nainowale Ne", "Namo Namo", "Namak Ishq Ka", "Nak Tak", "Naina Thag Lenge", "Nashe Si Chadh Gayi"],
+  "ne": ["Neele Neele Ambar Par", "Neend Na Aaye"],
+  "ni": ["Nimbooda Nimbooda", "Nit Khair Manga", "Nindiya Re"],
+  "no": ["Noor Title Track"],
+  "nu": ["Number Likh"],
+
+  "pa": ["Pehla Nasha", "Pee Loon", "Paani Wala Dance", "Paas Aao Na", "Pehli Baar Mohabbat Ki Hai", "Parda Hai Parda", "Pardesi Pardesi", "Param Sundari", "Payaliya"],
+  "ph": ["Phir Bhi Tumko Chaahoon", "Phir Se Ud Chala", "Phoolon Ka Taaron Ka", "Phir Mohabbat"],
+  "pi": ["Piya O Re Piya", "Piya Tose Naina Laage", "Piya Basanti Re"],
+  "py": ["Pyaar Ki Ek Kahani", "Pyar Tune Kya Kiya"],
+
+  "ra": ["Raabta", "Raatan Lambiyan", "Rang De Basanti Title", "Raat Kali Ek Khwaab Mein Aayi", "Raghupati Raghav Raja Ram", "Rang Barse", "Raftaar", "Raazi Title", "Rabba"],
+  "re": ["Rehna Tu", "Reet Meri", "Resham Ka Rumaal"],
+  "ri": ["Rimjhim Gire Saawan"],
+  "ro": ["Roop Tera Mastana", "Roke Na Ruke Naina"],
+  "ru": ["Ruk Ja O Dil Deewane", "Ruk Jana Nahi"],
+
+  "sa": ["Saans", "Sau Aasman", "Saathiya Title", "Sajde Mein", "Saiyaara", "Sandese Aate Hain", "Sadi Gali", "Sajna Aa Bhi Ja", "Sawan Aaya Hai", "Sare Jahan Se Achha", "Sab Tera", "Safarnama"],
+  "sh": ["Shayad", "Sheila Ki Jawani", "Shukran Allah", "Sher Aaya Sher", "Shankar Maha"],
+  "si": ["Silli Silli"],
+  "so": ["Sochna Kya", "Sooraj Dooba Hai", "Socha Na Tha Title"],
+  "su": ["Subhanallah", "Sunn Raha Hai Na Tu", "Suno Na Sangemarmar"],
+
+  "ta": ["Taal Se Taal Mila", "Taaron Ka Chamakta", "Taare Hain Baraati", "Tanha Dil", "Tera Naam Liya Toh"],
+  "te": ["Tere Liye", "Teri Meri Kahani", "Teri Ore"],
+  "th": ["Thodi Jagah"],
+  "ti": ["Tip Tip Barsa Paani", "Tinka Tinka"],
+  "tu": ["Tu Hi Re", "Tu Jaane Na", "Tum Tak", "Tu Hi Mera", "Tum Mile", "Tu Chahiye", "Tujhi Mein", "Tujhe Bhula Diya"],
+  "te": ["Tere Liye", "Teri Meri Kahani", "Tere Bina", "Tera Intezaar", "Teri Deewani"],
+  "tm": ["Tum Hi Ho"],
+  "tu": ["Tu Hi Re", "Tu Jaane Na", "Tum Tak", "Tu Chahiye", "Tujhe Bhula Diya", "Tumhe Jo Maine Dekha"],
+
+  "va": ["Vaaste", "Vande Mataram"],
+  "ve": ["Veer Zaara Title"],
+
+  "wa": ["Woh Lamhe", "Woh Ladki Jo", "Wada Raha"],
+  "wo": ["Woh Pehli Baar", "Woh Kisna Hai"],
+
+  "ya": ["Yaar Anmulle", "Yaad Piya Ki Aane Lagi", "Yaadon Ki Baaraat Title", "Yaaron Dosti"],
+  "ye": ["Yeh Jo Des Hai Tera", "Yeh Jawani Hai Deewani Title", "Yeh Dooriyan", "Yeh Ladka Hai Allah", "Yeh Mera Deewanapan Hai", "Yeh Shaam Mastani"],
+  "yu": ["Yunhi Chala Chal Rahi"],
+
+  "za": ["Zara Sa", "Zara Zara Behekta Hai", "Zaroor", "Zara Dekho Na", "Zaroori Tha"],
+  "zo": ["Zor Ka Jhatka"],
+  "zu": ["Zubi Zubi"]
+}

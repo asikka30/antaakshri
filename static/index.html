@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antaakshri</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- SETUP SCREEN -->
+<div id="screen-setup" class="screen">
+    <div class="logo">
+        <h1>&#127925; Antaakshri</h1>
+        <p>The Bollywood Singing Game</p>
+    </div>
+
+    <div class="card">
+        <h2>Players / Teams</h2>
+        <div class="row">
+            <input type="text" id="playerInput" placeholder="Enter name..." maxlength="20"
+                   onkeypress="if(event.key==='Enter') addPlayer()">
+            <button onclick="addPlayer()">Add</button>
+        </div>
+        <div id="playerList"></div>
+    </div>
+
+    <div class="card">
+        <h2>Settings</h2>
+        <div class="setting">
+            <span>Points to win</span>
+            <input type="number" id="pointsToWin" value="10" min="1" max="100">
+        </div>
+        <div class="setting">
+            <span>Timer</span>
+            <label class="switch">
+                <input type="checkbox" id="timerToggle" onchange="toggleTimerSettings()">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div id="timerSettings" class="hidden">
+            <div class="setting">
+                <span>Seconds per turn</span>
+                <input type="number" id="timerDuration" value="30" min="10" max="120">
+            </div>
+        </div>
+    </div>
+
+    <button class="btn-primary wide" onclick="startGame()">&#9654; Start Game</button>
+</div>
+
+<!-- GAME SCREEN -->
+<div id="screen-game" class="screen hidden">
+    <div id="scoreboard"></div>
+
+    <div class="game-area">
+        <div id="timer-display" class="hidden timer"></div>
+
+        <h2 id="turn-label"></h2>
+
+        <div class="syllable-box">
+            <div id="syllable-text"></div>
+            <input type="text" id="syllable-edit" class="hidden" placeholder="type syllable...">
+            <button class="btn-edit" id="syllable-btn" onclick="toggleSyllableEdit()">&#9998; edit</button>
+        </div>
+
+        <div id="last-song-label" class="last-song"></div>
+
+        <div class="row">
+            <input type="text" id="songInput" placeholder="Type the song you are singing..."
+                   onkeypress="if(event.key==='Enter') submitSong()">
+            <button onclick="submitSong()">&#10003; Sang it!</button>
+        </div>
+
+        <div class="action-row">
+            <button class="btn-hint" onclick="showHints()">&#127925; Hint</button>
+            <button class="btn-skip" onclick="skipTurn()">&#10007; Skip</button>
+        </div>
+
+        <div id="hint-panel" class="hint-panel hidden"></div>
+    </div>
+</div>
+
+<!-- WINNER SCREEN -->
+<div id="screen-winner" class="screen hidden">
+    <div class="winner-area">
+        <div class="trophy">&#127942;</div>
+        <h1 id="winner-name"></h1>
+        <div id="final-scores"></div>
+        <button class="btn-primary wide" onclick="playAgain()">Play Again</button>
+        <button class="wide btn-secondary" onclick="newGame()">New Game</button>
+    </div>
+</div>
+
+<script src="/static/game.js"></script>
+</body>
+</html>
