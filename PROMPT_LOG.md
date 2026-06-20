@@ -1,9 +1,10 @@
 # Antaakshri — Prompt Log
 
-Every prompt typed in this project, in order. Updated after each message.
+Every prompt typed in this project, in order. One entry per message. Updated at the end of every reply.
 
 ---
 
+<!--SESSION_START-->
 ## Session 1 — 2026-06-20
 
 | # | Prompt |
@@ -22,11 +23,11 @@ Every prompt typed in this project, in order. Updated after each message.
 | 12 | `can you add this code to my github - https://github.com/asikka30` |
 | 13 | `I have authenticated. Please push the code to get help` |
 | 14 | `Can you create a prompt commands file for this project and keep adding any prompts that I'm trying into that file? Keep that file updated after every prompt that I type` |
+| 15 | `save across session and create session bounndary marker as well` |
+<!--SESSION_END-->
 
 ---
 
-## How This File Works
+## Session Format
 
-- Every prompt you type in this project gets added here after each message.
-- Useful for tracking what you asked, replaying the build, or sharing your workflow.
-- Format: sequential number, raw prompt text, and a note if it was a short answer to a question.
+Each session is wrapped in `<!--SESSION_START-->` / `<!--SESSION_END-->` markers with the date. Prompts are numbered sequentially within each session. A new session block is added each time this project is opened on a new day or after a break.
