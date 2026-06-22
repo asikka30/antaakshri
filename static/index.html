@@ -67,8 +67,9 @@
         <div id="last-song-label" class="last-song"></div>
 
         <div class="row">
-            <input type="text" id="songInput" placeholder="Type the song you are singing..."
+            <input type="text" id="songInput" placeholder="Type or speak the song name..."
                    onkeypress="if(event.key==='Enter') submitSong()">
+            <button id="micBtn" onclick="toggleMic()" title="Speak song name">&#127908;</button>
             <button onclick="submitSong()">&#10003; Sang it!</button>
         </div>
 

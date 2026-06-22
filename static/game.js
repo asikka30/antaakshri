@@ -1,3 +1,48 @@
+// ── Speech Recognition ──────────────────────────────────────────────────────
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let recognition = null;
+let micActive = false;
+
+if (SR) {
+    recognition = new SR();
+    recognition.lang = 'en-IN';
+    recognition.interimResults = true;
+    recognition.continuous = false;
+
+    recognition.onresult = (e) => {
+        const transcript = Array.from(e.results)
+            .map(r => r[0].transcript).join('');
+        document.getElementById('songInput').value = transcript;
+    };
+
+    recognition.onend = () => {
+        micActive = false;
+        const btn = document.getElementById('micBtn');
+        if (btn) { btn.classList.remove('mic-on'); btn.title = 'Speak song name'; }
+    };
+
+    recognition.onerror = (e) => {
+        micActive = false;
+        const btn = document.getElementById('micBtn');
+        if (btn) btn.classList.remove('mic-on');
+        if (e.error !== 'no-speech') alert('Mic error: ' + e.error);
+    };
+}
+
+function toggleMic() {
+    if (!recognition) { alert('Speech recognition is not supported in this browser. Use Chrome or Edge.'); return; }
+    const btn = document.getElementById('micBtn');
+    if (micActive) {
+        recognition.stop();
+    } else {
+        document.getElementById('songInput').value = '';
+        recognition.start();
+        micActive = true;
+        btn.classList.add('mic-on');
+        btn.title = 'Listening... click to stop';
+    }
+}
+
 // ── State ──────────────────────────────────────────────────────────────────
 const G = {
     players: [],

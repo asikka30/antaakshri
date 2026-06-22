@@ -64,6 +64,8 @@ button:hover { opacity: 0.85; }
 .btn-hint { background: #4cc9f0; flex: 1; }
 .btn-skip { background: #e84393; flex: 1; }
 .btn-edit { background: transparent; color: #aaa; font-size: 0.75rem; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.15); }
+#micBtn { background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); font-size: 1.1rem; padding: 10px 12px; flex: 0; }
+#micBtn.mic-on { background: #e84393; border-color: #e84393; animation: blink 0.8s infinite; }
 .wide { width: 100%; margin-top: 8px; }
 
 /* Player list */

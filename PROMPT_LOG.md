@@ -29,6 +29,14 @@ Every prompt typed in this project, in order. One entry per message. Updated at 
 | 18 | `what's the full path for this log file` |
 <!--SESSION_END-->
 
+<!--SESSION_START-->
+## Session 2 — 2026-06-22
+
+| # | Prompt |
+|---|--------|
+| 19 | `can you use microphone to hear the song vs. typing it on the web interface` |
+<!--SESSION_END-->
+
 ---
 
 ## Session Format
